@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 تطبيق إدارة الحركة والنقل
 
@@ -450,3 +451,7 @@ README.md.
 ---
 
 © 2026 تطبيق إدارة الحركة والنقل – جامعة إقليم سبأ
+=======
+# transport-management-app
+Graduation Project - Mobile Application for Managing Transportation at University of Saba Region.
+>>>>>>> 25b5fb1ad0630c16a1ac988596f1f13439056285
