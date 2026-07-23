@@ -1,0 +1,7 @@
+(node:26768) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[INFO] 2026-07-14T23:00:46.444Z - MongoDB connected successfully
+[INFO] 2026-07-14T23:00:46.450Z - Server running on port 3500 in development mode
+[INFO] 2026-07-14T23:00:46.450Z - Health check: http://localhost:3500/health
+[0mPOST /api/v1/auth/login [32m200[0m 119.555 ms - 10724[0m
+[0mGET /api/v1/maintenance/types [33m400[0m 4.716 ms - 69[0m
