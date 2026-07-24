@@ -154,6 +154,9 @@ FS_UNI/
 | public/ | الملفات العامة |
 | README.md | توثيق المشروع |
 | .gitignore | الملفات المستثناة من Git |
+يوضح الشكل التالي الهيكل العام للمشروع.
+
+![Project Structure](images/project-structure.png)
 ---
 
 # 6. المميزات الرئيسية
