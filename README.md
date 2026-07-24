@@ -83,6 +83,10 @@ University Transportation Management Mobile Application
 
 # 5. هيكل المشروع
 
+### يوضح الشكل التالي الهيكل العام للمشروع.
+
+![Project Structure](images/project-structure.png)
+
 FS_UNI/
 │
 ├── b/
@@ -154,9 +158,7 @@ FS_UNI/
 | public/ | الملفات العامة |
 | README.md | توثيق المشروع |
 | .gitignore | الملفات المستثناة من Git |
-يوضح الشكل التالي الهيكل العام للمشروع.
 
-![Project Structure](images/project-structure.png)
 ---
 
 # 6. المميزات الرئيسية
