@@ -85,49 +85,75 @@ University Transportation Management Mobile Application
 
 FS_UNI/
 │
-├── b/                                                  [Backend - Node.js + Express]
-│   ├── src/                                            (الملفات البرمجية للخادم)
-│   │   ├── config/                                     (إعدادات النظام وقاعدة البيانات)
-│   │   ├── controllers/                                (منطق معالجة الطلبات)
-│   │   ├── middleware/                                 (التحقق والصلاحيات)
-│   │   ├── models/                                     (نماذج قاعدة بيانات MongoDB)
-│   │   ├── routes/                                     (مسارات REST API)
-│   │   ├── services/                                   (الخدمات والعمليات)
-│   │   └── utils/                                      (الدوال والأدوات المساعدة)
-│   │
-│   ├── uploads/                                        (ملفات التحميل)
-│   ├── package.json                                    (إعدادات المشروع والحزم)
-│   ├── package-lock.json                               (إدارة الحزم)
-│   ├── jest.config.js                                  (إعدادات الاختبارات)
-│   └── tsconfig.json                                   (إعدادات TypeScript)
-│
-├── m/                                                  [Mobile Application - React Native (Expo)]
+├── b/
 │   ├── src/
-│   │   ├── app/                                        (تهيئة التطبيق والتنقل)
-│   │   ├── assets/                                     (الصور والأيقونات)
-│   │   ├── components/                                 (المكونات المشتركة)
-│   │   ├── constants/                                  (الثوابت والإعدادات)
-│   │   ├── features/                                   (وحدات التطبيق)
-│   │   │   └── auth/                                   (تسجيل الدخول والمصادقة)
-│   │   ├── hooks/                                      (React Hooks)
-│   │   ├── providers/                                  (مزودات التطبيق)
-│   │   ├── services/                                   (الاتصال مع Backend API)
-│   │   ├── store/                                      (إدارة حالة التطبيق)
-│   │   ├── theme/                                      (الألوان والخطوط)
-│   │   └── types/                                      (تعريف أنواع البيانات)
-│   │
-│   ├── public/                                         (الملفات العامة)
-│   ├── app.json                                        (إعدادات Expo)
-│   ├── babel.config.js                                 (إعدادات Babel)
-│   ├── package.json                                    (إعدادات التطبيق)
-│   ├── react-native.config.js                          (إعدادات React Native)
-│   ├── tailwind.config.js                              (إعدادات Tailwind CSS)
-│   ├── tsconfig.json                                   (إعدادات TypeScript)
-│   └── jest.config.js                                  (إعدادات الاختبارات)
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── uploads/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── jest.config.js
+│   └── tsconfig.json
 │
-├── README.md                                           (توثيق المشروع)
-└── .gitignore                                          (الملفات المستثناة من Git)
+├── m/
+│   ├── src/
+│   │   ├── app/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── constants/
+│   │   ├── features/
+│   │   ├── hooks/
+│   │   ├── providers/
+│   │   ├── services/
+│   │   ├── store/
+│   │   ├── theme/
+│   │   └── types/
+│   ├── public/
+│   ├── app.json
+│   ├── babel.config.js
+│   ├── package.json
+│   ├── react-native.config.js
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── jest.config.js
+│
+├── README.md
+└── .gitignore
 
+### شرح المجلدات والملفات
+
+| English | الشرح بالعربية |
+|---------|----------------|
+| b/ | الخادم الخلفي (Backend) باستخدام Node.js و Express |
+| src/ | الملفات البرمجية الرئيسية |
+| config/ | إعدادات النظام وقاعدة البيانات |
+| controllers/ | منطق معالجة الطلبات |
+| middleware/ | التحقق والصلاحيات |
+| models/ | نماذج قاعدة بيانات MongoDB |
+| routes/ | مسارات REST API |
+| services/ | الخدمات والعمليات |
+| utils/ | الدوال والأدوات المساعدة |
+| uploads/ | ملفات التحميل |
+| m/ | تطبيق الموبايل React Native (Expo) |
+| app/ | تهيئة التطبيق والتنقل |
+| assets/ | الصور والأيقونات |
+| components/ | المكونات المشتركة |
+| constants/ | الثوابت والإعدادات |
+| features/ | وحدات التطبيق |
+| hooks/ | React Hooks |
+| providers/ | مزودات التطبيق |
+| services/ | الاتصال مع Backend API |
+| store/ | إدارة حالة التطبيق |
+| theme/ | الألوان والخطوط |
+| types/ | تعريف أنواع البيانات |
+| public/ | الملفات العامة |
+| README.md | توثيق المشروع |
+| .gitignore | الملفات المستثناة من Git |
 ---
 
 # 6. المميزات الرئيسية
